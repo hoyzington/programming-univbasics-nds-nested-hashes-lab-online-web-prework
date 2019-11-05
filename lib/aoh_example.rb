@@ -6,10 +6,12 @@ PAT_M =  { name:  "Pat Monteseian", occupation: "Staff" }
 KATE_G = { name:  "Kate Gompert", occupation: "None" }
 BRUCE_G = { name:  "Bruce Green", occupation: "Fan of Mildred" }
 
+
 def assembled_aoh
   aoh = [DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G]
   aoh
 end
+
 
 def literal_aoh
   aoh = [
@@ -22,9 +24,11 @@ def literal_aoh
   aoh
 end
 
+
 def aoh_lookup(aoh, row, key)
   
 end
+
 
 def aoh_update(aoh, row, key, new_value)
   # Update the AoH data at row and key to have the value of new_value
